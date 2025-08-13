@@ -1,0 +1,35 @@
+
+
+@if(f){
+    <form [formGroup]="frmDonor" class="user-form">
+        <mat-card class="user-card">
+    
+      
+              <mat-form-field class="full-width">
+                <mat-label>Name</mat-label>
+                <input matInput type="text" formControlName="name">
+              </mat-form-field>
+      
+              <mat-form-field class="full-width">
+                <mat-label>Phone</mat-label>
+                <input matInput type="text" formControlName="phone">
+              </mat-form-field>
+      
+              <mat-form-field class="full-width">
+                <mat-label> Email</mat-label>
+                <input matInput type="email" formControlName="mail">
+              </mat-form-field>
+      
+          
+      
+          <mat-card-actions class="btns">
+            <button mat-raised-button color="primary" (click)="addDonor()">O.K</button>
+
+            <button mat-raised-button color="primary" (click)="cancel()">Cancel</button>
+          </mat-card-actions>
+        </mat-card>
+      </form>
+          }@else{
+
+            <h1>You are not allowed! </h1>
+        }

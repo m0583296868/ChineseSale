@@ -1,0 +1,107 @@
+/* עיצוב כללי לדף */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* קונטיינר לסל קניות */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* עיצוב כל פריט בסל קניות */
+.cart-item {
+  display: flex;
+  justify-content: space-between; /* פריסת התמונה והמפרט */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* כרטיס מוצר */
+.product-card {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  padding: 10px;
+}
+
+/* תמונה בתוך הכרטיס */
+.product-image {
+  width: 30%; /* התמונה תתפוס 30% מהרוחב של הכרטיס */
+  height: auto;
+  object-fit: contain; /* ימנע חיתוך התמונה */
+  border-right: 2px solid #f0f0f0;
+}
+
+/* פרטי המוצר */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 65%; /* המידע יתפוס 65% מהרוחב */
+}
+
+.product-info mat-card-header {
+  margin-bottom: 5px;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px; /* גודל קטן יותר לפרטי המוצר */
+}
+
+.product-details h4 {
+  margin: 0;
+  flex: 1; /* מאפשר חלוקה אחידה של הרוחב */
+}
+
+/* כפתור מחיקה */
+.btn-delete {
+  background-color: black;
+  color: white;
+  padding: 5px 10px; /* הקטנה של כפתור המחיקה */
+  font-size: 12px; /* הקטנת הגודל */
+  align-self: flex-start; /* מוודא שהכפתור יהיה מקביל לשאר הפרטים */
+}
+
+button[color="warn"]:hover {
+  background-color: #ff5e57;
+}
+
+/* כפתור לביצוע הזמנה */
+.example-button-row {
+  width: 200px;
+  background-color: #ffd500;
+  padding: 10px;
+}
+
+.example-button-row:hover {
+  background-color: white;
+}
+
+.example-button-row mat-icon {
+  margin-left: 10px;
+}
+.c{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

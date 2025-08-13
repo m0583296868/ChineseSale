@@ -1,0 +1,195 @@
+/* עיצוב כללי לדף */
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* כרטיס מוצר */
+.product-card {
+
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* תמונה בתוך הכרטיס */
+.product-image {
+  width: 90%;
+  height: 80%;
+  border-radius: 8px;
+}
+
+/* עיצוב למחיר */
+.product-cost {
+  font-size: 18px;
+  color: #2d2d2d;
+  margin: 10px 0;
+}
+
+/* קונטיינר לפעולות */
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+/* שדה כמות */
+.amount-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: end;
+  width: 40%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+/* כפתורים */
+.btn {
+  width: 80%;
+  padding: 10px;
+}
+
+/* כפתור למחיקת מוצר */
+button[color="warn"] {
+  background-color:black;
+  color: white;
+}
+
+button[color="warn"]:hover {
+  background-color: #000000;
+}
+
+/* כפתור לעדכון מוצר */
+button[color="accent"] {
+  background-color:#ffd500;;
+  color: white;
+}
+
+button[color="accent"]:hover {
+  background-color: #dab812;
+}
+
+/* כפתור להוספה לסל */
+button[color="primary"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+button[color="primary"]:hover {
+  background-color: #388e3c;
+}
+
+/* כפתור כללי להוספה */
+button.mat-raised-button {
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  width: auto;
+}
+
+/* עיצוב כרטיסים במצב hover */
+.product-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.a{
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#addBtn{
+  width: 40px;
+  background-color: aqua;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h4{
+  text-align: center;
+}
+button[color="addCard"]
+{
+background-color: #ffffff;
+border-radius: 0;
+  width: 25%;
+}
+
+.aa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8%;
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+}
+nav{
+  display: flex;  flex-direction: row;
+  justify-content: center;
+flex-wrap: wrap;
+flex-grow: 1;
+gap: 10%;
+align-items: center;
+width: 50%;
+margin: 2%;
+}
+
+.mat-option{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

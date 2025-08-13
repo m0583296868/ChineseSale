@@ -1,0 +1,17 @@
+
+@if(f){
+<h1 class="h1">The donors:</h1>
+
+@for(d of donorListDB ; track d){
+<h4> {{d.name}}, id:{{d.id}}</h4>
+
+}
+
+<div class="example-button-container">
+
+    <button mat-fab extended (click)="AddDonor()" color="accent" class="addBtn"><mat-icon>add</mat-icon>Add donor</button>
+</div>}
+@else{
+
+    <h1>You are not allowed! </h1>
+}

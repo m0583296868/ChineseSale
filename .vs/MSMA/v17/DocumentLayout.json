@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miri\\Desktop\\MSMA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\orderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\orderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\carddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\carddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\dal\\icarddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\dal\\icarddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\dto\\cardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\dto\\cardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\dto\\giftsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\dto\\giftsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\gifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\gifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\models\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\models\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\bl\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\bl\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|c:\\users\\miri\\desktop\\msma\\msma\\migrations\\20250119095136_fdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C5EFE-C3B5-406C-8562-1B95C137CBF5}|MSMA\\MSMA.csproj|solutionrelative:msma\\migrations\\20250119095136_fdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229193035_dfdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MSMA\\Migrations\\20241229193035_dfdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229174205_df.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MSMA\\Migrations\\20241229174205_df.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\GiftController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\GiftController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwEAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:27:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\UserService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\UserService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\UserService.cs",
+              "RelativeToolTip": "MSMA\\BL\\UserService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwB8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:46:06.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\DonorController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\DonorController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:26:34.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250119095136_fdg.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20250119095136_fdg.cs",
+              "RelativeDocumentMoniker": "MSMA\\Migrations\\20250119095136_fdg.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20250119095136_fdg.cs",
+              "RelativeToolTip": "MSMA\\Migrations\\20250119095136_fdg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T09:51:37.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAWwFsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:11:49.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:42:56.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T11:15:37.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\UserDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\UserDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\UserDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\UserDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:25:20.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiftDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\GiftDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\GiftDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\GiftDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\GiftDal.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:36:17.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "MSMA\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Controllers\\CardController.cs",
+              "RelativeToolTip": "MSMA\\Controllers\\CardController.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAADwv58AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:08:35.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DonorDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\DonorDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\DonorDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\DonorDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\DonorDal.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:25:38.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IOrderService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IOrderService.cs",
+              "RelativeToolTip": "MSMA\\BL\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:45:33.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\OrderService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\OrderService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\OrderService.cs",
+              "RelativeToolTip": "MSMA\\BL\\OrderService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:45:39.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\OrderDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\OrderDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\OrderDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\OrderDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:43:34.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\IOrderDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\IOrderDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\IOrderDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\IOrderDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:45:11.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IDonorDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\IDonorDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\IDonorDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\IDonorDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\IDonorDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:34:13.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CardDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\CardDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\CardDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\CardDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\CardDal.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwIsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:56:00.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IDonorService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\IDonorService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IDonorService.cs",
+              "RelativeToolTip": "MSMA\\BL\\IDonorService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:36:07.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\DonorService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\DonorService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\DonorService.cs",
+              "RelativeToolTip": "MSMA\\BL\\DonorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:35:28.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICardService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\ICardService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\ICardService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\ICardService.cs",
+              "RelativeToolTip": "MSMA\\BL\\ICardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:54:26.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\CardService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\CardService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\CardService.cs",
+              "RelativeToolTip": "MSMA\\BL\\CardService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:22:05.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICardDal.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\ICardDal.cs",
+              "RelativeDocumentMoniker": "MSMA\\DAL\\ICardDal.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\DAL\\ICardDal.cs",
+              "RelativeToolTip": "MSMA\\DAL\\ICardDal.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T19:08:47.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CardsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\CardsDTO.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\DTO\\CardsDTO.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\CardsDTO.cs",
+              "RelativeToolTip": "MSMA\\Models\\DTO\\CardsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:39:50.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Cards.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\Cards.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Cards.cs",
+              "RelativeToolTip": "MSMA\\Models\\Cards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:39:49.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiftsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\GiftsDTO.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\DTO\\GiftsDTO.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\GiftsDTO.cs",
+              "RelativeToolTip": "MSMA\\Models\\DTO\\GiftsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:39:49.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MSMA\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\appsettings.Development.json",
+              "RelativeToolTip": "MSMA\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T20:31:59.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IUserService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\IUserService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IUserService.cs",
+              "RelativeToolTip": "MSMA\\BL\\IUserService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAhwBEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:45:11.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\appsettings.json",
+              "RelativeDocumentMoniker": "MSMA\\appsettings.json",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\appsettings.json",
+              "RelativeToolTip": "MSMA\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T18:11:51.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Program.cs",
+              "RelativeDocumentMoniker": "MSMA\\Program.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Program.cs",
+              "RelativeToolTip": "MSMA\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:12:53.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Gifts.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Gifts.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\Gifts.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Gifts.cs",
+              "RelativeToolTip": "MSMA\\Models\\Gifts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:39:47.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\UsersDTO.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\DTO\\UsersDTO.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\DTO\\UsersDTO.cs",
+              "RelativeToolTip": "MSMA\\Models\\DTO\\UsersDTO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:28:21.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\JwtTokenService.cs",
+              "RelativeToolTip": "MSMA\\BL\\JwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:03:32.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "MSMA\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Models\\Users.cs",
+              "RelativeToolTip": "MSMA\\Models\\Users.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:40:36.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241229193035_dfdd.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229193035_dfdd.cs",
+              "RelativeDocumentMoniker": "MSMA\\Migrations\\20241229193035_dfdd.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229193035_dfdd.cs",
+              "RelativeToolTip": "MSMA\\Migrations\\20241229193035_dfdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:30:35.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "MSMA\\BL\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\BL\\IJwtTokenService.cs",
+              "RelativeToolTip": "MSMA\\BL\\IJwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:02:13.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20241229174205_df.cs",
+              "DocumentMoniker": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229174205_df.cs",
+              "RelativeDocumentMoniker": "MSMA\\Migrations\\20241229174205_df.cs",
+              "ToolTip": "C:\\Users\\miri\\Desktop\\MSMA\\MSMA\\Migrations\\20241229174205_df.cs",
+              "RelativeToolTip": "MSMA\\Migrations\\20241229174205_df.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:42:05.724Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

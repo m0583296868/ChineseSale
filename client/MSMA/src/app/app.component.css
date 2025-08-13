@@ -1,0 +1,75 @@
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 900px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+}
+.mat-toolbar .mat-toolbar-single-row{
+  background-color: black;
+}
+/* סגנון עבור סרגל הכלים */
+.custom-toolbar {
+  background-color: black; /* רקע שחור */
+  color: white; /* צבע טקסט לבן */
+  padding: 0 16px; /* ריפוד פנימי */
+
+}
+
+/* סגנון לכפתורים */
+.custom-toolbar button {
+  
+  color: white; /* צבע טקסט לבן לכפתורים */
+  text-transform: none; /* מבטל את ההפיכה לאותיות רישיות */
+  font-size: 1.4rem;
+}
+/* שינוי צבע הכפתורים כשעוברים עליהם עם העכבר */
+.custom-toolbar button:hover {
+
+    color: #ffd500;
+  font-size: 1.43rem;
+}
+
+/* כאשר הכפתור נלחץ */
+.custom-toolbar button:active {
+  /* background-color: #555; */
+  color: rgb(80, 165, 0)
+  /* צבע רקע כהה כשעושים על הכפתור קליק */
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;}
+
+  
+.ms{
+  padding-right: 3%;
+    color: #ffd500;
+    display: flex;
+    flex-direction: row;
+  }

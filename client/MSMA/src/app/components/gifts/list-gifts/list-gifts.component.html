@@ -1,0 +1,106 @@
+<main><h3>Choose Category</h3>
+  <nav>
+<div class="example-button-row" >
+<button mat-fab aria-label="Example icon button with a delete icon" (click)="selectByCategory()" ><mat-icon>filter_alt</mat-icon></button>
+</div>
+<!-- <select [(ngModel)]="searchByCategory"class="ctg">
+    <option value="1">עבדים</option>
+    <option value="2">קוסמטיקה</option>
+    <option value="3">איברים</option>
+    <option value="4">חיות</option>
+    <option value="6">ילדים</option>
+    <option value="7">תבלינים</option>
+    <option value="5">שונות</option>
+
+</select> -->
+<mat-form-field class="full-width">
+  <mat-label>Category</mat-label>
+  <mat-select [(ngModel)]="searchByCategory" class="mat-option">
+    <mat-option class="mat-option" value="1">עבדים</mat-option>
+    <mat-option class="mat-option" value="2">קוסמטיקה</mat-option>
+    <mat-option  class="mat-option"  value="3">איברים</mat-option>
+    <mat-option  class="mat-option"value="4">חיות</mat-option>
+    <mat-option   class="mat-option"value="6">ילדים</mat-option>
+    <mat-option class="mat-option" value="7">תבלינים</mat-option>
+    <mat-option  class="mat-option"value="5">שונות</mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+
+
+
+<div class="example-button-row">
+  <button mat-fab aria-label="Example icon button with a delete icon" (click)="clear()"><mat-icon>filter_alt_off</mat-icon></button>
+  </div>
+</nav>
+@if(f){
+<button mat-fab extended  (click)="add()" color="accent" class="addBtn" ><mat-icon>add</mat-icon>Add gift</button>
+}
+@if(!isWasRandom){
+  <div class="a">
+    
+@for(g of giftListDB ; track g){
+
+<mat-card class="product-card">
+  <!-- כותרת כרטיס המוצר -->
+  <mat-card-header>
+    <mat-card-title class="mat-option">{{ g.name }}</mat-card-title>
+  </mat-card-header>
+
+  <!-- תמונה של המוצר -->
+  <img mat-card-image [src]="g.img" [alt]="g.name" class="product-image" />
+
+  <!-- תוכן כרטיס המוצר -->
+  <mat-card-content>
+    <h4 class="product-cost">{{ g.cost }} ₪</h4>
+
+    <div class="product-actions">
+      <!-- כפתור למחיקת המוצר -->
+      <div class="aa">
+      <div class="amount-container">
+        <!-- שדה כמות -->
+        <mat-form-field appearance="fill">
+          <mat-label>Amount</mat-label>
+          <input matInput type="number" [(ngModel)]="g.amount" id="amount" min="1"/>
+        </mat-form-field>
+      </div>
+
+      <!-- כפתור להוספת מוצר לסל -->
+      <!-- <button mat-raised-button  (click)="addCard(g.id, g.amount || 1)" ><mat-icon>add_shopping_cart</mat-icon></button> -->
+      <button mat-fab aria-label="Example icon button with a delete icon" color="addCard" (click)="addCard(g.id, g.amount || 1)">
+        <mat-icon>add_shopping_cart</mat-icon>
+      </button>
+    </div>
+    @if(f){
+      <!-- כפתור להרצת גרל -->
+      <button mat-raised-button color="warn" (click)="delete(g.id)" class="btn"><mat-icon>delete</mat-icon></button>
+
+      <!-- כפתור לעדכון המוצר -->
+      <button mat-raised-button color="accent" (click)="update(g.id)" class="btn"><mat-icon>edit</mat-icon></button>
+   <button mat-raised-button color="primary" (click)="random(g.id)" class="btn"> Random</button>
+    }
+    </div>
+  </mat-card-content>
+</mat-card>
+
+}
+
+</div>
+}
+
+@else{
+    <h1>ההגרלה כבר התבצעה</h1>
+    @for(g of getersListDB ; track g){
+        <div>
+
+<h4>{{g.name}}</h4>
+
+        </div>
+    }  
+}
+
+</main>
+
+
+<!-- add_shopping_cart -->

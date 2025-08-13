@@ -1,0 +1,124 @@
+<!-- 
+
+<ul>
+    <li *ngFor="let c of listMyCard; let i = index">
+      <div class="divO">
+        {{ c.amount }}  {{ listGift[i].name }} {{listGift[i].cost}}</div>
+
+
+
+        <mat-card class="product-card">
+      
+          <mat-card-header>
+            <mat-card-title>{{  listGift[i].name }}</mat-card-title>
+          </mat-card-header>
+        
+          
+          <img mat-card-image [src]="listGift[i].img" [alt]="listGift[i].name" class="product-image" />
+        
+         
+          <mat-card-content>
+            <h4 class="product-cost">{{ listGift[i].cost}} ₪</h4>
+        
+            <div class="product-actions">
+       
+              <div class="aa">
+              <div class="amount-container">
+            
+          <h4>{{c.amount}}</h4>
+              </div>
+        
+            </div>
+           
+              <button mat-raised-button color="warn" (click)="delete(c.id)" class="btn"><mat-icon>delete</mat-icon></button>
+   
+           
+            </div>
+          </mat-card-content>
+        </mat-card>
+
+
+    </li>   
+   
+
+  </ul>
+
+
+<div >
+  <button class="example-button-row"mat-fab aria-label="Example icon button with a delete icon" (click)="ok()">Making Order<mat-icon>shopping_cart_checkout</mat-icon></button>
+  </div> -->
+
+  <div class="cart-container">
+    <ul>
+      <li *ngFor="let c of listMyCard; let i = index" class="cart-item">
+        <mat-card class="product-card">
+          <div class="product-content">
+            <!-- תמונה של המוצר -->
+            <img mat-card-image [src]="listGift[i].img" [alt]="listGift[i].name" class="product-image" />
+            
+            <!-- פרטי המוצר -->
+            <div class="product-info">
+              <mat-card-header>
+                <mat-card-title>{{ listGift[i].name }}</mat-card-title>
+              </mat-card-header>
+              <div class="product-details">
+                <h4>Amount: {{ c.amount }}</h4>
+                <h4>Price: {{ listGift[i].cost }} ₪</h4>
+                <!-- כפתור מחיקה קטן ומקביל -->
+                <button mat-raised-button color="warn" (click)="delete(c.id)" class="btn-delete">
+                  <mat-icon>delete</mat-icon>
+                
+                </button>
+              </div>
+            </div>
+          </div>
+        </mat-card>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- כפתור להזמנה -->
+  <div> 
+    <h4>Final price: {{ FinalPrice }} ₪</h4>
+    <button class="example-button-row" mat-fab (click)="ok()">
+     
+      Making Order <mat-icon>shopping_cart_checkout</mat-icon>
+    </button>
+  </div>
+
+  @if(f){
+    <h1 >All cards</h1>
+
+
+    <div class="cart-container">
+      <ul>
+        <li *ngFor="let c of cardsListDB; let i = index" class="cart-item">
+          <mat-card class="product-card">
+            <div class="product-content">
+              <!-- תמונה של המוצר -->
+              <img mat-card-image [src]="giftsCards[i].img" [alt]="giftsCards[i].name" class="product-image" />
+              
+              <!-- פרטי המוצר -->
+              <div class="product-info">
+                <mat-card-header>
+                  <mat-card-title class="c">{{ giftsCards[i].name }}</mat-card-title>
+                </mat-card-header>
+                <div class="product-details">
+                  <h4>Amount: {{ c.amount }}</h4>
+                  <h4>Price: {{ giftsCards[i].cost }} ₪</h4>
+                  <h4>UserId: {{ c.userId }} </h4>
+
+                </div>
+              </div>
+            </div>
+          </mat-card>
+        </li>
+      </ul>
+      <h2>YOUR BENEFITS:  {{benefits}}!!!</h2>
+    </div>
+    
+
+
+  }
+  
+  

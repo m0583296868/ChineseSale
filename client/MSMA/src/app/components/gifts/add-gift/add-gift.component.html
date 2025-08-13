@@ -1,0 +1,57 @@
+
+
+<form [formGroup]="frmGift" class="gift-form">
+  <mat-card class="gift-card">
+    <mat-card-content>
+      <div class="form-group">
+        <mat-form-field class="full-width">
+          <mat-label>Name </mat-label>
+          <input matInput type="text" formControlName="name">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <mat-label>Cost</mat-label>
+          <input matInput type="text" formControlName="cost">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <mat-label>Imame </mat-label>
+          <input matInput type="text" formControlName="img">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <mat-label>DonorId</mat-label>
+          <input matInput type="text" formControlName="donorId">
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <mat-label>Category</mat-label>
+          <mat-select formControlName="category">
+            <mat-option class="mat-option" value="1">תכשיטים</mat-option>
+            <mat-option class="mat-option" value="2">קוסמטיקה</mat-option>
+            <mat-option class="mat-option" value="3">ספרים</mat-option>
+            <mat-option class="mat-option" value="4">הום סטיילינג</mat-option>
+            <mat-option class="mat-option" value="6">שוברים</mat-option>
+            <mat-option class="mat-option" value="7">קורסים</mat-option>
+            <mat-option class="mat-option" value="5">שונות</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <label>Add picture</label>
+      <div class="file-upload-container">
+          <input type="file" id="fileInput" (change)="onFileSelected($event)" accept="image/*" class="bt" />
+          <label for="fileInput" class="custom-file-upload">        
+      </label>
+     
+        <div *ngIf="image" class="image-preview">
+          <label>תצוגה מקדימה:</label>
+          <img class="preview-img" [src]="image" alt="תצוגה מקדימה של התמונה"/>
+        </div>
+      </div>
+    </mat-card-content>
+
+    <mat-card-actions class="btns">
+      <button mat-raised-button color="primary" (click)="add()">O.K</button>
+      <button mat-raised-button color="primary" (click)="cancel()">Cancel</button>
+
+    </mat-card-actions>
+  </mat-card>
+</form>

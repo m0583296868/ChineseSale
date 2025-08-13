@@ -1,0 +1,22 @@
+<!-- <p>login works!</p>
+<table>
+    <td>userName<input type="text" [(ngModel)]="userName" name="userName"></td>
+    <td>password<input type="password" [(ngModel)]="password" name="password"></td>
+</table>
+<button   (click)="login()" >login</button> -->
+
+
+<!-- לא משתמשים ב-<form> אלא רק ב-<div> או <table> -->
+<div class="login-container">
+  <mat-form-field class="full-width">
+    <mat-label>User name</mat-label>
+    <input matInput type="text" [(ngModel)]="userName" name="userName">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Password</mat-label>
+    <input matInput type="password" [(ngModel)]="password" name="password">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="login()">Login</button>
+</div>

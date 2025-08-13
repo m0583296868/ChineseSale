@@ -1,0 +1,30 @@
+
+  .example-button-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 140px; */
+  }
+  .image{
+    width: 60%;
+    height: 40%;
+  }
+  .enter:hover{
+    background-color:#ffd500;
+    font-size: 1.56rem;
+    width: 10.2vw;
+    height: 8.3vh;
+  }
+  .enter{
+    font-size: 1.5rem;
+    width: 10vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 0;
+    padding: 5%;
+  }
+  .gerev{
+    display: flex;
+    justify-content: left;
+ gap:18%;
+ align-items: center;
+  }

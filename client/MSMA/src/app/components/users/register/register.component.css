@@ -1,0 +1,54 @@
+/* עיצוב כללי לדף */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* כרטיס הרשמה */
+  .user-card {
+    width: 400px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* שדות טופס */
+  .full-width {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    margin-bottom: 16px;
+  }
+  
+  mat-card-content {
+    padding: 20px;
+  }
+  
+  /* כפתור הרשמה */
+  button[color="primary"] {
+    background-color: #4caf50;
+    color: white;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[color="primary"]:hover {
+    background-color: #388e3c;
+  }
+  
+  /* עיצוב כרטיסים במצב hover */
+  .user-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .btns{
+    gap:2%;
+  }

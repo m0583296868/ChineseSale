@@ -1,0 +1,6 @@
+@MSMA_HostAddress = http://localhost:5241
+
+GET {{MSMA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
